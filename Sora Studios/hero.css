@@ -1,0 +1,13 @@
+.hero-section{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero-image{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 25px;
+    display: block;
+}
