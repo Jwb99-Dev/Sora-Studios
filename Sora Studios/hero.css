@@ -1,7 +1,16 @@
 .hero-section{
-    display:flex;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
+    background-image: url('Images/Hero Image.png');
+    background-size: cover;
+    min-height: 50em;
+    align-items: center;
+    color: white;
+    background-repeat: no-repeat;
+    border-radius: 5em;
+    background-position: center;
 }
 
 .hero-image{
