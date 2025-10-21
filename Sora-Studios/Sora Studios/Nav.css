@@ -1,0 +1,27 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 30px;
+    color: rgb(50, 50, 50);
+    margin-bottom: 30px;
+}
+
+
+.nav-right{
+    flex:1
+}
+
+
+
+.nav-about{
+    padding-left: 20px;
+}
+
+.nav-services{
+    padding-left: 20px;
+}
+
+.nav-projects{
+    margin-left: 20px;
+}

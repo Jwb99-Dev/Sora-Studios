@@ -1,0 +1,94 @@
+.hero-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-image: url('Images/Hero Image.png');
+    background-size: cover;
+    min-height: 50em;
+    align-items: center;
+    color: white;
+    background-repeat: no-repeat;
+    border-radius: 5em;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+.hero-heading{
+    font-size: 75px;
+    font-weight:500;
+    margin-bottom: 30px;
+}
+
+.hero-para{
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+.hero-button-main{
+    background-color: white;
+    color: rgb(88, 88, 88);
+    border-style: none;
+    max-width: fit-content;
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 8px;
+    margin-right: 40px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+.hero-button-main:hover{
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-color: white;
+
+}
+.hero-button-second{
+    max-width: fit-content;
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 8px;
+    background-color: transparent;
+    border-color:white;
+    border-style: solid;
+    color: white;
+}
+
+.services-wrapper{
+    margin-bottom: 50px;
+}
+.services-h1{
+    font-size: 50px;
+    color: rgb(50, 50, 50);;
+}
+
+.services-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    border-radius: 25px;
+    background-color: red;
+}
+
+.ux-ui-card{
+    background-color: red;
+    height: 200px;
+}
+.photography-card{
+    background-color: pink;
+    height: 200px;
+}
