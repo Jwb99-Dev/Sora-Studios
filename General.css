@@ -1,7 +1,32 @@
+/* Setup the colour plaette */
+:root {
+    --text-color: rgb(88, 88, 88);
+    --border-radius: 3em;
+}
+
+/* Setup Tag defaults */
 body{
     font-family: montserrat;
 }
 
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.section {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.section__header {
+    font-size: 4em;
+    color: var(--text-color);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* the main page layout */
 .page-container{
     padding-left: 70px;
     padding-right: 70px;
