@@ -14,9 +14,6 @@
     margin-bottom: 50px;
 }
 
-
-
-
 .hero-heading{
     font-size: 75px;
     font-weight:500;
@@ -52,6 +49,7 @@
     border-color: white;
 
 }
+
 .hero-button-second{
     max-width: fit-content;
     font-size: 30px;
@@ -66,7 +64,6 @@
     border-style: solid;
     color: white;
 }
-
 
 /* Our main cards container */
 .services {
