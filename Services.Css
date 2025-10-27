@@ -1,0 +1,113 @@
+/* Our main cards container */
+.services {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+    min-height: 25em;
+}
+
+/* common for all cards */
+.card {
+    border-radius: var(--border-radius);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Note the __ which is a common notation to denote a 'child class'. See BEM styling https://getbem.com/ */
+.web-dev__card {
+    background-image: url(Images/Webdev.png);
+    grid-column: 1;
+    grid-row: 1/3;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+
+}
+.web-dev-title{
+    color: white;
+    font-size: 50px;
+    padding: 0;
+}
+
+.dev-learn-more-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+
+    
+}
+
+.learn-more{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 15px;
+   
+}
+.right-arrow-image{
+    display: inline-block;
+    margin-top: 6px;
+}
+
+
+.brand-identity__card {
+    background-image: url(Images/Brand-Identity.png);
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.ux-ui__card{
+    background-image: url(Images/UX-UI-Design.png);
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.photography__card{
+    background-image: url(Images/Photography.png);
+    grid-column: 3;
+    grid-row: 2;
+}
+
+/* setup an override for less that 1000px */
+@media (max-width: 1000px) {
+    .services {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr 1fr;
+    }
+
+    .web-dev__card {
+        grid-column: 1/3;
+        grid-row: 1;
+    }
+
+    .brand-identity__card {
+        background-color: cadetblue;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .ux-ui__card{
+        background-color: aqua;
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .photography__card{
+        background-color: blueviolet;
+        grid-column: 2;
+        grid-row: 2;
+    }
+}
